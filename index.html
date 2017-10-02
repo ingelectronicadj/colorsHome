@@ -8,26 +8,38 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link href="styleBoton.css" rel="stylesheet" type="text/css" media="screen" />
-        
-	</head>
-	<body>
+        <link href="styleBoton.css" rel="stylesheet" type="text/css" media="screen" />                <link href="styleFontAwsome.css" rel="stylesheet" type="text/css" />
 
-		<div id="info">
-			SISTEMA IOT PARA EL MONITOREO Y CONTROL DE FUENTES DE LUZ ARTIFICIAL APLICADO A LA AGRICULTURA DE PRECISIÓN <br>
-			[<a href="http://radiationpar.github.io/interfazProcessingRGBW/">PowerPAR LED DELMA</a> investigador principal <a href="https://github.com/ingelectronicadj/">Diego Javier Mena Amado</a>]
-		</div>
-        
-        <script src="boton/script.js"></script>
+	</head>
+	<body>        
+        <script src="scriptBoton.js"></script>
+        <center>
         <div class="btn">
 			<div class="btn-back">
-				<p>El conocimiento es poder</p>
-				<button class="yes">Wiki</button>
-				<button class="no">Grafana</button>
+				<p>Sistema IOT para el monitoreo y control de fuentes de luz artificial</p>
+				<a href="http://radiationpar.github.io/interfazProcessingRGBW/">
+                    <button class="yes">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    Wiki
+                    </button>
+                </a>
+                <a href="http://play.grafana.org/dashboard/db/grafana-play-home?orgId=1">
+				<button class="no">
+                    Grafana
+				</button>
+				</a>
 			</div>
-			<div class="btn-front">Menu</div>
+			<div class="btn-front"> 
+			<i class="fa fa-bars" aria-hidden="true"></i>
+            PowerPAR LED
+             <img src="https://www.udistrital.edu.co/sites/default/files/LogoUD.png" width=200>
+            </div>
 		</div>
-
+        </center>
+        <!--<div id="info">
+			SISTEMA IOT PARA EL MONITOREO Y CONTROL DE FUENTES DE LUZ ARTIFICIAL APLICADO A LA AGRICULTURA DE PRECISIÓN <br>
+			[<a href="http://radiationpar.github.io/interfazProcessingRGBW/">PowerPAR LED DELMA</a> investigador principal <a href="https://github.com/ingelectronicadj/">Diego Javier Mena Amado</a>]
+		</div>-->
 		<script src="build/three.js"></script>
 
 		<script src="js/geometries/hilbert3D.js"></script>

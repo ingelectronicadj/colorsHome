@@ -6,7 +6,7 @@ html, body {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; 
+          user-select: none;
 }
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -149,3 +149,7 @@ a:hover {
 .btn[data-direction="left"].is-open {
   -webkit-transform: rotateY(-180deg);
 transform: rotateY(-180deg); }
+
+#footer { position: absolute; bottom: 10px; width: 100%; }
+			.h { color: #fff }
+			.c { display: inline; margin-left: 1em }
